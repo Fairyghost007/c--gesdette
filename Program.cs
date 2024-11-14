@@ -1,17 +1,19 @@
-﻿using Cours.Core;
-using Cours.Core.Factory;
-using Cours.Models;
-using Cours.Repository;
-using Cours.Repository.Impl;
-using Cours.Service;
-using Cours.Service.Impl;
-using Cours.View;
+using gesdette15.Core;
+using gesdette15.Core.Factory;
+using gesdette15.Models;
+using gesdette15.Repository;
+using gesdette15.Repository.Impl;
+using gesdette15.Service;
+using gesdette15.Service.Impl;
+using gesdette15.View;
+using gesdette15.Enum;
 using Cours.Enum;
 
-namespace Cours
+namespace gesdette15
 {
     internal class Program
     {
+
 
         public static void Main(string[] args)
         {
@@ -84,7 +86,7 @@ namespace Cours
         1. Correction Projet Dette avec les Listes
         2. Utilisation Base de Donnne .Net
         ____________________________________
-        TAF pour le Prochain Cours
+        TAF pour le Prochain gesdette15
 
         1. Base Donne avec ORM Drapper
         2. Base Donne avec Entity Framework

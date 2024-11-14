@@ -1,24 +1,19 @@
-namespace Cours.Models
+using System.ComponentModel.DataAnnotations;
+
+namespace gesdette15.Models
 {
     public class Dette
     {
-        // private int id;
-        // private DateTime date;
-        // private float montant;
-
-        public DateTime Date { get; set; } = DateTime.Now; // Date du jour par defaut
-        public float Montant { get; set; }
+        [Key]
         public int Id { get; set; }
-
-        // Relation
+        public int ClientId { get; set; }
         public Client Client { get; set; }
-
+        public DateTime Date { get; set; }
+        public float Montant { get; set; }
 
         public override string ToString()
         {
             return $"Dette n°{Id}, du {Date:dd/MM/yyyy} pour {Montant}";
         }
-
-
     }
 }

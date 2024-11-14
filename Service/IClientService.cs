@@ -1,6 +1,6 @@
-using Cours.Models;
+using gesdette15.Models;
 
-namespace Cours.Service
+namespace gesdette15.Service
 {
     public interface IClientService
     {
